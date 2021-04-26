@@ -18,7 +18,7 @@ Estrutura do projeto:
 │  ├── features/
 │  │   ├── hooks/
 │  │   ├── pages/
-│  │   ├── specs/
+│  │   ├── specifications/
 │  │   ├── step_definitions/
 │  │   └── support/
 │  │       ├── config/
