@@ -1,0 +1,14 @@
+dev:
+  base_url: 'https://demoqa.com'
+  aws_secret_name: 'qa/medium/tests-ui'
+  aws_region_name: 'us-east-1'
+
+qa:
+  base_url: 'https://...'
+  aws_secret_name: '...'
+  aws_region_name: '...'
+
+prod:
+  base_url: 'https://...'
+  aws_secret_name: ''
+  aws_region_name: ''
