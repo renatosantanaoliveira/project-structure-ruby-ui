@@ -13,7 +13,7 @@
 [report_builder-image]: https://img.shields.io/badge/report_builder-1.9-blue
 [report_builder-url]: https://reportbuilder.rajatthareja.com/
 
-# Project structure ruby UI
+# Challenge
 [![Ruby Version][ruby-image]][ruby-url]
 [![Capybara Version][capybara-image]][capybara-url]
 [![Cucumber Version][cucumber-image]][cucumber-url]
@@ -52,13 +52,13 @@ Estrutura do projeto:
 
 ## Configurando ambiente local
 
-Assumimos que você já ***possui o Ruby disponível no terminal***. Agora você precisará do **ChormeDriver** disponível no terminal e do **bundler** para baixar todas as dependências dos pacotes do projeto, conforme o arquivo **[Gemfile.lock](https://github.com/ZupIT/livepass-qa-ui/blob/master/Gemfile.lock)**.
+Assumimos que você já ***possui o Ruby disponível no terminal***. Agora você precisará do **ChormeDriver** disponível no terminal e do **bundler** para baixar todas as dependências dos pacotes do projeto, conforme o arquivo **[Gemfile.lock](https://github.com/renatosantanaoliveira/project-structure-ruby-ui/blob/main/Gemfile.lock)**.
 
 Para instalar o bundler executando o seguinte comando no terminal:
 ```
 gem install bundler
 ```
-Para baixar as dependências de pacote deste projeto abra a pasta "**[raiz](https://github.com/ZupIT/livepass-qa-ui/tree/master/)**" no terminal e execute o comando:
+Para baixar as dependências de pacote deste projeto abra a pasta "**[raiz](https://github.com/renatosantanaoliveira/project-structure-ruby-ui/tree/main/)**" no terminal e execute o comando:
 ```
 bundler install
 ```
@@ -88,7 +88,7 @@ Para instalar o plugion na Jetbrains deve seguir os passos neste link "**[RubyMi
 
 ## Executando testes localmente
 
-Para executar os testes localmente deste projeto "**[/](https://github.com/ZupIT/livepass-qa-ui/tree/master/)**" no terminal e execute o comando:
+Para executar os testes localmente deste projeto "**[/](https://github.com/renatosantanaoliveira/project-structure-ruby-ui/tree/main/)**" no terminal e execute o comando:
 ```
 cucumber
 ```
@@ -100,7 +100,7 @@ cucumber -t @myTag
 
 ## Alternando execução entre ambientes
 
-Por padrão os testes iram rodar usando a url de **DEV** conforme arquivo "**[environments.yml](https://github.com/ZupIT/livepass-qa-ui/blob/master/features/support/config/environments.yml)**". 
+Por padrão os testes iram rodar usando a url de **DEV** conforme arquivo "**[environments.yml](https://github.com/renatosantanaoliveira/project-structure-ruby-ui/blob/main/features/support/config/environments.yml)**". 
 
 Os ambiente disponíveis são:
 - dev
@@ -112,7 +112,7 @@ Para alterar em tempo de execução, adiciona o parâmetro "**ENV**" no terminal
 cucumber ENV=qa
 ```
 
-Para alterar o padrão vá até o arquivo "**[cucumber.yml](https://github.com/ZupIT/livepass-qa-ui/blob/master/cucumber.yml)**" e altere a linha 4:
+Para alterar o padrão vá até o arquivo "**[cucumber.yml](https://github.com/renatosantanaoliveira/project-structure-ruby-ui/blob/main/cucumber.yml)**" e altere a linha 4:
 ```
 default: (...) -p dev
 ```
