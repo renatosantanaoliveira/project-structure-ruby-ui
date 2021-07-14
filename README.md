@@ -13,7 +13,7 @@
 [report_builder-image]: https://img.shields.io/badge/report_builder-1.9-blue
 [report_builder-url]: https://reportbuilder.rajatthareja.com/
 
-# Challenge
+# Project structure ruby UI
 [![Ruby Version][ruby-image]][ruby-url]
 [![Capybara Version][capybara-image]][capybara-url]
 [![Cucumber Version][cucumber-image]][cucumber-url]
